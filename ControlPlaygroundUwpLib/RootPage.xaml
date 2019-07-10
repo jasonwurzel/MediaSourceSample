@@ -4,15 +4,11 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controlPlaygroundUwpLib="using:ControlPlaygroundUwpLib"
     mc:Ignorable="d"
     Background="DarkSeaGreen" RequestedTheme="Dark">
     <Grid x:Name="TheRootGrid">
-        <NavigationView ItemInvoked="NavigationView_ItemInvoked">
-            <NavigationView.MenuItems>
-                <NavigationViewItem Content="playground" />
-            </NavigationView.MenuItems>
-            <Frame x:Name="frame" />
-        </NavigationView>
+        <controlPlaygroundUwpLib:PlaygroundPage/>
     </Grid>
 
 </Page>
