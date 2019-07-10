@@ -43,12 +43,13 @@ namespace ControlPlaygroundUwpLib
                 _cameraHelper.FrameArrived += CameraHelper_FrameArrived;
                 FrameSourceGroupCombo.ItemsSource = frameSourceGroups;
                 FrameSourceGroupCombo.SelectionChanged += FrameSourceGroupCombo_SelectionChanged;
-                //FrameSourceGroupCombo.SelectedIndex = 0;
 
                 MediaFrameSource frameSource = _cameraHelper.PreviewFrameSource;
                 _mediaPlayer = new MediaPlayer { AutoPlay = true, RealTimePlayback = true };
                 _mediaPlayer.Source = MediaSource.CreateFromMediaFrameSource(frameSource);
                 MediaPlayerElementControl.SetMediaPlayer(_mediaPlayer);
+
+                FrameSourceGroupCombo.SelectedIndex = 0;
             }
         }
 
