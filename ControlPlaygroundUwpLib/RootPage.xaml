@@ -8,7 +8,12 @@
     mc:Ignorable="d"
     Background="DarkSeaGreen" RequestedTheme="Dark">
     <Grid x:Name="TheRootGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <controlPlaygroundUwpLib:PlaygroundPage/>
+        <ListView x:Name="TheListView" Grid.Column="1"/>
     </Grid>
 
 </Page>

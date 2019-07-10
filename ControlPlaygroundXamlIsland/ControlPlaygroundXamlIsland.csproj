@@ -41,6 +41,7 @@
     <ProjectReference Include="$(IslandPath)\$(IslandLibrary).csproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
+    <ProjectReference Include="..\ClassLibraryNetCore\ClassLibraryNetCore.csproj" />
     <Reference Include="$(IslandLibrary)">
       <HintPath>$(IslandPath)\obj\x64\$(Configuration)\$(IslandLibrary).dll</HintPath>
     </Reference>

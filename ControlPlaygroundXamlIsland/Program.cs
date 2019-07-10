@@ -1,4 +1,5 @@
 ﻿using System;
+using ClassLibraryNetCore;
 using Microsoft.Toolkit.Wpf.UI.XamlHost;
 using Colors = System.Windows.Media.Colors;
 using SW = System.Windows;
@@ -19,6 +20,10 @@ namespace ControlPlaygroundXamlIsland
             {
                 var wpfApp = new SW.Application();
 
+
+                var rootPage = new ControlPlaygroundUwpLib.RootPage();
+                rootPage.Dummy = new DummyFromNetCore();
+
                 var window = new MainWindow()
                 {
                     SnapsToDevicePixels = true,
@@ -27,9 +32,11 @@ namespace ControlPlaygroundXamlIsland
                     Content = new WindowsXamlHost()
                     {
                         SnapsToDevicePixels = true,
-                        Child = new ControlPlaygroundUwpLib.RootPage(),
+                        Child = rootPage,
                     }
                 };
+
+
                 wpfApp.Run(window);
             }
         }
