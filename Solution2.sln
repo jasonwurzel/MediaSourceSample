@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28714.193
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Toolkit.Wpf.UI.XamlHost", "Microsoft.Toolkit.Wpf.UI.XamlHost\Microsoft.Toolkit.Wpf.UI.XamlHost.csproj", "{7E69A76A-C571-4CB2-A47D-80509B80E1AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlPlaygroundUwpLib", "ControlPlaygroundUwpLib\ControlPlaygroundUwpLib.csproj", "{32D6FEEB-80FF-4669-81C5-0B943B377C33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlPlaygroundXamlIsland", "ControlPlaygroundXamlIsland\ControlPlaygroundXamlIsland.csproj", "{C5025164-AA06-478E-A8ED-52C67D06F8FC}"
+EndProject
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "ControlPlaygroundPackage", "ControlPlaygroundPackage\ControlPlaygroundPackage.wapproj", "{A69B4E8F-1C09-4CD0-84A8-57CB429A5515}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E69A76A-C571-4CB2-A47D-80509B80E1AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E69A76A-C571-4CB2-A47D-80509B80E1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E69A76A-C571-4CB2-A47D-80509B80E1AB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7E69A76A-C571-4CB2-A47D-80509B80E1AB}.Debug|x64.Build.0 = Debug|Any CPU
+		{7E69A76A-C571-4CB2-A47D-80509B80E1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E69A76A-C571-4CB2-A47D-80509B80E1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E69A76A-C571-4CB2-A47D-80509B80E1AB}.Release|x64.ActiveCfg = Release|Any CPU
+		{7E69A76A-C571-4CB2-A47D-80509B80E1AB}.Release|x64.Build.0 = Release|Any CPU
+		{32D6FEEB-80FF-4669-81C5-0B943B377C33}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{32D6FEEB-80FF-4669-81C5-0B943B377C33}.Debug|x64.ActiveCfg = Debug|x64
+		{32D6FEEB-80FF-4669-81C5-0B943B377C33}.Debug|x64.Build.0 = Debug|x64
+		{32D6FEEB-80FF-4669-81C5-0B943B377C33}.Release|Any CPU.ActiveCfg = Release|x64
+		{32D6FEEB-80FF-4669-81C5-0B943B377C33}.Release|x64.ActiveCfg = Release|x64
+		{32D6FEEB-80FF-4669-81C5-0B943B377C33}.Release|x64.Build.0 = Release|x64
+		{C5025164-AA06-478E-A8ED-52C67D06F8FC}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C5025164-AA06-478E-A8ED-52C67D06F8FC}.Debug|x64.ActiveCfg = Debug|x64
+		{C5025164-AA06-478E-A8ED-52C67D06F8FC}.Debug|x64.Build.0 = Debug|x64
+		{C5025164-AA06-478E-A8ED-52C67D06F8FC}.Release|Any CPU.ActiveCfg = Release|x64
+		{C5025164-AA06-478E-A8ED-52C67D06F8FC}.Release|x64.ActiveCfg = Release|x64
+		{C5025164-AA06-478E-A8ED-52C67D06F8FC}.Release|x64.Build.0 = Release|x64
+		{A69B4E8F-1C09-4CD0-84A8-57CB429A5515}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{A69B4E8F-1C09-4CD0-84A8-57CB429A5515}.Debug|x64.ActiveCfg = Debug|x64
+		{A69B4E8F-1C09-4CD0-84A8-57CB429A5515}.Debug|x64.Build.0 = Debug|x64
+		{A69B4E8F-1C09-4CD0-84A8-57CB429A5515}.Debug|x64.Deploy.0 = Debug|x64
+		{A69B4E8F-1C09-4CD0-84A8-57CB429A5515}.Release|Any CPU.ActiveCfg = Release|x64
+		{A69B4E8F-1C09-4CD0-84A8-57CB429A5515}.Release|x64.ActiveCfg = Release|x64
+		{A69B4E8F-1C09-4CD0-84A8-57CB429A5515}.Release|x64.Build.0 = Release|x64
+		{A69B4E8F-1C09-4CD0-84A8-57CB429A5515}.Release|x64.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0136146-5101-4AAF-9DC9-867249030C0B}
+	EndGlobalSection
+EndGlobal
